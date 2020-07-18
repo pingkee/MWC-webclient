@@ -37,10 +37,10 @@ function App() {
                 <Route exact path={'/'} render={() => {
                     return <Redirect to={'/home'}/>
                 }}/>
+                <Route exact path={'/home'} component={Home}/>
                 <Route exact path={'/products'} component={ProductPage}/>
                 <Route exact path={'/products/:id'} component={ProductDetail}/>
                 <Route exact patr={'/cart'} component={ShoppingCart}/>
-                <Route exact path={'/home'} component={Home}/>
             </Switch>
             <Footer/>
         </React.Fragment>
