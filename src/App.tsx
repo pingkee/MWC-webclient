@@ -27,7 +27,7 @@ const composeEnhancers2 = window.__REDUX_DEVTOOLS_EXTENSION__ || compose;
 
 export const  store = createStore(rootReducer, composeEnhancers && composeEnhancers2());
 
-function App() {
+const App = () => {
   return (
     <Provider store={store}>
         <BrowserRouter>
@@ -37,10 +37,10 @@ function App() {
                 <Route exact path={'/'} render={() => {
                     return <Redirect to={'/home'}/>
                 }}/>
+                <Route exact path={'/home'} component={Home}/>
                 <Route exact path={'/products'} component={ProductPage}/>
                 <Route exact path={'/products/:id'} component={ProductDetail}/>
                 <Route exact patr={'/cart'} component={ShoppingCart}/>
-                <Route exact path={'/home'} component={Home}/>
             </Switch>
             <Footer/>
         </React.Fragment>
