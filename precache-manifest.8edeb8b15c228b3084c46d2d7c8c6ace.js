@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2db2a4ce2e6407695e6e8ce348f0f001",
+    "revision": "0e72761f4c90e3c069fb04b91de84640",
     "url": "/MWC-webclient/index.html"
   },
   {
-    "revision": "b1f07affdac42fa0788d",
+    "revision": "9f3d5e006fb3b7d47a50",
     "url": "/MWC-webclient/static/css/main.c0c22e88.chunk.css"
   },
   {
-    "revision": "a3398252950bd1a4d0b1",
-    "url": "/MWC-webclient/static/js/2.92b88d38.chunk.js"
+    "revision": "8c2910d2bb302f1c692b",
+    "url": "/MWC-webclient/static/js/2.d77b1456.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/MWC-webclient/static/js/2.92b88d38.chunk.js.LICENSE.txt"
+    "url": "/MWC-webclient/static/js/2.d77b1456.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1f07affdac42fa0788d",
-    "url": "/MWC-webclient/static/js/main.c1ff021e.chunk.js"
+    "revision": "9f3d5e006fb3b7d47a50",
+    "url": "/MWC-webclient/static/js/main.916e1f95.chunk.js"
   },
   {
     "revision": "de7824d9f12f459e4666",
