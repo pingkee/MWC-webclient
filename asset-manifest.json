@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MWC-webclient/static/css/main.c0c22e88.chunk.css",
-    "main.js": "/MWC-webclient/static/js/main.8c4487c0.chunk.js",
-    "main.js.map": "/MWC-webclient/static/js/main.8c4487c0.chunk.js.map",
+    "main.js": "/MWC-webclient/static/js/main.c1ff021e.chunk.js",
+    "main.js.map": "/MWC-webclient/static/js/main.c1ff021e.chunk.js.map",
     "runtime-main.js": "/MWC-webclient/static/js/runtime-main.5ea8d453.js",
     "runtime-main.js.map": "/MWC-webclient/static/js/runtime-main.5ea8d453.js.map",
     "static/js/2.92b88d38.chunk.js": "/MWC-webclient/static/js/2.92b88d38.chunk.js",
     "static/js/2.92b88d38.chunk.js.map": "/MWC-webclient/static/js/2.92b88d38.chunk.js.map",
     "index.html": "/MWC-webclient/index.html",
-    "precache-manifest.32c0931535f3e47b106f3287c615889c.js": "/MWC-webclient/precache-manifest.32c0931535f3e47b106f3287c615889c.js",
+    "precache-manifest.3868e36732b08f8d68c244aec234420d.js": "/MWC-webclient/precache-manifest.3868e36732b08f8d68c244aec234420d.js",
     "service-worker.js": "/MWC-webclient/service-worker.js",
     "static/css/main.c0c22e88.chunk.css.map": "/MWC-webclient/static/css/main.c0c22e88.chunk.css.map",
     "static/js/2.92b88d38.chunk.js.LICENSE.txt": "/MWC-webclient/static/js/2.92b88d38.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5ea8d453.js",
     "static/js/2.92b88d38.chunk.js",
     "static/css/main.c0c22e88.chunk.css",
-    "static/js/main.8c4487c0.chunk.js"
+    "static/js/main.c1ff021e.chunk.js"
   ]
 }
