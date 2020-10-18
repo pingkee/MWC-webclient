@@ -3,14 +3,14 @@ import {Provider} from 'react-redux';
 import {createStore, compose } from 'redux';
 import rootReducer from './reducers';
 
-import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
+import {HashRouter, Switch, Route, Redirect} from 'react-router-dom';
 
 import './App.scss';
-import ProductPage from "./pages/ProductPage/ProductPage";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import ProductDetail from "./pages/ProductDetail/ProductDetail";
-import ShoppingCart from "./pages/ShopingCart/ShoppingCart";
+import ProductPage from './pages/ProductPage/ProductPage';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import ProductDetail from './pages/ProductDetail/ProductDetail';
+import ShoppingCart from './pages/ShopingCart/ShoppingCart';
 import Home from './pages/Home/Home';
 
 declare global {
@@ -30,7 +30,7 @@ export const  store = createStore(rootReducer, composeEnhancers && composeEnhanc
 const App = () => {
   return (
     <Provider store={store}>
-        <BrowserRouter>
+      <HashRouter basename='/'>
         <React.Fragment>
             <Header cartLength={0}/>
             <Switch>
@@ -44,7 +44,7 @@ const App = () => {
             </Switch>
             <Footer/>
         </React.Fragment>
-        </BrowserRouter>
+        </HashRouter>
     </Provider>
   );
 }
